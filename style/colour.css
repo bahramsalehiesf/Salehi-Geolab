@@ -1,0 +1,134 @@
+body {
+    background: #9B9B9B;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #463E28;
+}
+
+.left, .right {
+    border-color: #F8F9F1;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+blockquote {
+    border-color: #E29C22;
+}
+
+#main, .sidebaritem {
+    background: #FFF;
+    color: #555;
+}
+
+#logo {
+    background: #FFFFFF url(logo.jpg) no-repeat left center;
+    border-color: #FFF;
+}
+
+#logo h1 {
+    background: transparent;
+    color: #444;
+}
+
+#menubar {
+    background: #89022A
+}
+
+#menu ul li {
+    background-color: #89022A
+}
+
+#menu ul li a {
+    color: white
+}
+
+/* inja mohemme */
+#menu ul li a.current {
+    font-weight: bold;
+    color: #89022A;
+    background: white
+}
+
+#menu ul li a:hover {
+    color: #89022A;
+    background: white
+}
+
+input.searchfield {
+    background: #FFF;
+    border-color: #888;
+}
+
+input.searchbutton {
+    background: #333;
+    border-color: #949C88;
+    color: #FFF;
+}
+
+.sidebaritem ul, .sidebaritem li {
+    border-color: #D6D9C9;
+}
+
+.sidebaritem li a, .sidebaritem li a:hover {
+    background: transparent url(arrow.png) no-repeat left center;
+    color: #555;
+}
+
+.sidebaritem li a.current, .sidebaritem li a:hover, .sidebaritem li a.current:hover {
+    background: transparent url(arrow_select.png) no-repeat left center;
+}
+
+h4, #content a, #content a:hover, #footer a, #footer a:hover {
+    background: transparent;
+    color: #555;
+}
+
+#content {
+    background-color: #FFFFFF
+}
+
+#graycontent {
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC
+}
+
+#footer {
+    background: #89022A;
+    color: #FFFFFF;
+    border-color: #CCD0BA;
+}
+
+/* sNews */
+fieldset, .comment, .commentsbox {
+    background: transparent;
+    color: #444;
+}
+
+fieldset, .date {
+    border-color: #D6D9C9;
+}
+
+.comment {
+    background: #FFF;
+    color: #444;
+}

@@ -1,0 +1,364 @@
+/* global */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Arial;
+    padding: 0px;
+    margin: 0px;
+    font-size: .78em;
+}
+
+b {
+    font-weight: bold;
+}
+
+table {
+    width: 80%
+}
+
+p {
+    margin: 10px;
+    padding: 0px 0px 6px 0px;
+    line-height: 1.7em;
+    margin-left: 20px;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, Arial;
+    font-size: 110%;
+    letter-spacing: .1em;
+    padding: 7px 0px 5px 0px;
+    margin: 0px 0px 12px 10px;
+}
+
+h4 {
+    font-family: Calibri, Calibri;
+    font-size: 110%;
+}
+
+img {
+    border: 0px;
+    margin: 16px;
+    padding: 0px;
+}
+
+a {
+    outline: none;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+/* image positioning - left, right and center */
+.left {
+    float: left;
+    border-right: 18px solid;
+}
+
+.right {
+    float: right;
+    border-left: 18px solid;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* block quote */
+blockquote {
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px 0px 20px;
+    border-left: 8px solid;
+}
+
+/* unordered list */
+/*ul
+{ margin: 2px 0px 18px 16px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 6px 0px; 
+  padding: 0px;
+  
+
+}*/
+
+/* ordered list */
+ol {
+    margin: 8px 0px 0px 24px;
+    padding: 0px;
+}
+
+ol li {
+    margin: 0px 0px 11px 0px;
+    padding: 0px;
+}
+
+/* margin lefts / margin rights - to centre content */
+#main, #footer, #logo, #menubar, #site_content, #munccore {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* main container */
+#main {
+    width: 903px;
+}
+
+#munccore {
+    width: 920px;
+    height: 100px;
+}
+
+/*
+#C-CoreLogo {
+	
+ height:50; width:230; padding: 20px 0px 0px 0px;
+
+}
+
+#MUNLogo
+{float: right; height:65; width:125; padding: 0px 0px 0px 80%;}
+
+*/
+
+/* logo */
+#logo {
+    width: 903px;
+    height: 202px;
+    border-top: 4px solid;
+}
+
+#logo h1 { /*font-size: 250%;*/
+    font-weight: normal;
+    padding: 0px 12px 0px 0px;
+    float: none;
+}
+
+/* navigation menu */
+#menubar {
+    width: 903px;
+    height: 26px;
+}
+
+/*ul#menu{margin: 0px; }*/
+
+.vertical_line {
+    height: 150px;
+    width: 1px;
+    background: #000;
+}
+
+/*ul#menu li
+{ float: left; 
+  margin: 0px 0px 0px 0px; 
+  padding: 0px;
+  list-style: none; 
+position:relative;  
+} */
+
+/*#menu ul ul
+{
+	position:absolute;
+	display:none;
+	
+}*/
+
+/*ul#menu li a
+{ font-family: Arial , Arial ;
+  position:relative;
+  display: block; 
+  float: left; 
+  height: 24px;
+  text-decoration: none; 
+  padding: 6px 28px 0px 18px;
+  text-align: center;
+  border-right: 1px solid;
+  
+}*/
+
+#search {
+    float: right;
+    padding: 2px 0px 20px 20px;
+    margin-left: 20px
+}
+
+input.searchbutton {
+    font-family: Arial, Arial;
+    border: 1px solid;
+    padding: 0px 0px 1px 0px;
+    width: 64px;
+    cursor: pointer;
+}
+
+/* main content */
+#site_content {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 900px;
+    overflow: hidden;
+    margin: 5px 0px 0px 0px;
+    background: #FFF url(back.png) repeat-y;
+}
+
+/* sidebar */
+.sidebar {
+    float: left;
+    width: 190px;
+    padding: 15px 15px 15px 20px;
+
+}
+
+/* sidebar items / links */
+.sidebaritem {
+    text-align: left;
+    width: 190px;
+    float: left;
+    margin: 0px 0px 15px 0px;
+
+}
+
+.sidebaritem h1, .sidebaritem h3, .sidebaritem p {
+    margin: 8px 10px 10px 12px;
+}
+
+.sidebaritem ul {
+    border-top: 1px solid;
+    width: 160px;
+    padding-top: 4px;
+    margin: 4px 0px 15px 14px;
+}
+
+.sidebaritem li {
+    list-style: none;
+    padding: 0px 0px 4px 0px;
+    border-bottom: 1px solid;
+}
+
+.sidebaritem li a, .sidebaritem li a:hover {
+    text-decoration: none;
+    padding: 0px 0px 0px 18px;
+    display: block;
+}
+
+/* page content */
+#content {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 640px;
+    float: left;
+    padding: 22px 15px 15px 15px;
+    background: white;
+}
+
+#content h1 {
+    font-size: 125%;
+}
+
+#content a, #footer a {
+    border-bottom: 1px dotted;
+}
+
+#content a:hover, #footer a:hover {
+    border-bottom: 1px solid;
+}
+
+/* footer */
+#footer {
+    width: 865px;
+    height: 50px;
+    border-top: 1px solid;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#content a, #content a:hover, #footer a, #footer a:hover {
+    text-decoration: none;
+}
+
+/* sNews */
+fieldset, .comment, .commentsbox {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid;
+    padding: 10px 8px;
+}
+
+input {
+    padding: 2px;
+}
+
+textarea {
+    width: 95%;
+    height: 200px;
+    padding: 3px;
+}
+
+.date {
+    border-top: 1px solid;
+    margin: 15px 0px 5px 0px;
+    font-weight: bold;
+}
+
+/*************************************************************************************/
+
+* {
+    MARGIN: 0PX;
+    padding: 0px
+}
+
+#menu ul {
+
+    list-style: none;
+}
+
+#menu ul li {
+    border: 1px solid white;
+    width: 110.8px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+    position: relative;
+    font-weight: bold;
+}
+
+#menu ul li a {
+
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul li a:hover {
+
+    font-weight: bold;
+    display: block;
+}
+
+#menu ul ul {
+
+    position: absolute;
+    display: none;
+
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+
+		
